@@ -7,4 +7,3 @@ Following things cover
 - Third tab, Register form
 - Same tabs in side menu
 - All UI are competibility with portrait and landscape
-- 
