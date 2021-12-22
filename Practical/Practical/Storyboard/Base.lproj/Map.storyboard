@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Location-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="MapViewController" customModule="Practical" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmh-Cf-ZPa">
+                                <rect key="frame" x="20" y="64" width="46" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="HPG-re-n5a"/>
+                                    <constraint firstAttribute="height" constant="46" id="lUU-Pb-zkp"/>
+                                </constraints>
+                                <state key="normal" image="ic_menu"/>
+                                <connections>
+                                    <action selector="btnOpenMenuTapAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Esu-af-fNk"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TzZ-fg-F6Y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TzZ-fg-F6Y" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="8ws-jY-LCE"/>
+                            <constraint firstItem="TzZ-fg-F6Y" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="DFM-MM-bey"/>
+                            <constraint firstItem="mmh-Cf-ZPa" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="JqP-Bb-uUl"/>
+                            <constraint firstItem="mmh-Cf-ZPa" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="YBc-Gh-Stp"/>
+                            <constraint firstAttribute="trailing" secondItem="TzZ-fg-F6Y" secondAttribute="trailing" id="cMn-o9-1y3"/>
+                            <constraint firstAttribute="bottom" secondItem="TzZ-fg-F6Y" secondAttribute="bottom" id="eQ2-fN-Z90"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Location" image="ic_location" id="gdt-OH-UO7"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="btnMenu" destination="mmh-Cf-ZPa" id="thK-Dx-GZn"/>
+                        <outlet property="mapview" destination="TzZ-fg-F6Y" id="zyi-PB-a7N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="91" y="89"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_location" width="32" height="32"/>
+        <image name="ic_menu" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

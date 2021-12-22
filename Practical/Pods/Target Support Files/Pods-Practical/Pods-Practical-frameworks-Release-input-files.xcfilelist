@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Practical/Pods-Practical-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FAPanels/FAPanels.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/SKCountryPicker/SKCountryPicker.framework
+${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework

@@ -1,0 +1,28 @@
+PODS:
+  - FAPanels (2.0.1)
+  - IQKeyboardManagerSwift (6.5.6)
+  - SKCountryPicker (1.3.2)
+  - SkyFloatingLabelTextField (4.0.0)
+
+DEPENDENCIES:
+  - FAPanels
+  - IQKeyboardManagerSwift
+  - SKCountryPicker
+  - SkyFloatingLabelTextField
+
+SPEC REPOS:
+  trunk:
+    - FAPanels
+    - IQKeyboardManagerSwift
+    - SKCountryPicker
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  FAPanels: 050291ef601a1dc00fad888f83e74284cb86dd52
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  SKCountryPicker: ceff8cfffc0ddde2088f2fcc2d01d1ad530c0b03
+  SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
+
+PODFILE CHECKSUM: 4832d0e1cd896ae00b3105df1ab3192b9634fed6
+
+COCOAPODS: 1.11.2
