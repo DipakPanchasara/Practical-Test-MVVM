@@ -6,4 +6,5 @@ Following things cover
 - Second tab, Google map and current location pin
 - Third tab, Register form
 - Same tabs in side menu
-- All UI needs to competibility with portrait and landscape
+- All UI are competibility with portrait and landscape
+- 
